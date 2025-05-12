@@ -1,66 +1,67 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p> The Online Medical Store Project is a digital platform that enables users to purchase medicines and healthcare products over the internet. It aims to provide a convenient, fast, and secure way for customers to access essential medical supplies from the comfort of their homes. The system caters to both end-users (patients/customers) and administrators (pharmacists, staff) and ensures real-time access to product catalogs, prescriptions, order tracking, and online payments. This platform is especially vital in times of medical emergencies, remote areas, or pandemics when physical access to pharmacies is limited.</p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<h2>Key Features</h2>
 
-## About Laravel
+<h4>1. User Registration & Authentication</h4>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<li>Secure login/sign-up for customers and admins.</li>
+<li>Role-based access control (Admin, Pharmacist, Customer).</li>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<h4>2. Medicine Search and Filter</h4>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<li>Search functionality based on name, category, or symptoms.</li>
+<li>Filter by brand, price, availability, or ratings.</li>
 
-## Learning Laravel
+<h4>3. Prescription Upload</h4>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<li>Users can upload scanned prescriptions for validation.</li>
+<li>Admins/pharmacists can verify and approve/disapprove.</li>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<h4>4. Product Catalog & Details</h4>
 
-## Laravel Sponsors
+<li>Detailed descriptions, images, prices, and usage instructions.</li>
+<li>Categories include OTC, prescription drugs, wellness products, etc.</li>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<h4>5. Shopping Cart and Order Management</h4>
 
-### Premium Partners
+<li>Add/remove items from the cart.</li>
+<li>Checkout with billing and shipping details.</li>
+<li>View and manage order history.</li>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[CMS Max](https://www.cmsmax.com/)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-- **[Romega Software](https://romegasoftware.com)**
+<h4>6. Online Payment Integration</h4>
 
-## Contributing
+<li>Secure payment gateway for credit/debit cards, UPI, wallets.</li>
+<li>Option for Cash on Delivery (COD).</li>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<h4>7. Admin Dashboard</h4>
 
-## Code of Conduct
+<li>Manage product inventory, pricing, categories.</li>
+<li>Approve prescriptions and monitor user orders.</li>
+<li>Generate sales reports and customer insights.</li>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<h4>8. Real-time Order Tracking</h4>
 
-## Security Vulnerabilities
+<li>Track oreder status: processing, dispatched, delivered.</li>
+<li>Option for Cash on Delivery (COD).</li>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<img width="914" alt="Screenshot 2023-07-20 112229" src="https://github.com/user-attachments/assets/1d37f436-c595-4bb0-8b48-3152fab73289" />
 
-## License
+<img width="905" alt="Screenshot 2023-07-20 112433" src="https://github.com/user-attachments/assets/7b3801b0-0ad0-4a46-ad29-7f9498524393" />
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<img width="905" alt="Screenshot 2023-07-20 112711" src="https://github.com/user-attachments/assets/074f6c66-b091-45b0-9c1e-1aa8f1fd2671" />
+
+<img width="913" alt="Screenshot 2023-07-20 122516" src="https://github.com/user-attachments/assets/0255acc1-2e55-4074-8c0d-7cf5ba146769" />
+
+<img width="892" alt="Screenshot 2023-07-20 122810" src="https://github.com/user-attachments/assets/7f85e88e-27fa-401f-a887-aa89fcbc07e7" />
+
+<img width="899" alt="Screenshot 2023-07-20 123422" src="https://github.com/user-attachments/assets/1b1fd2c5-a409-4266-81ae-a6e3f3c559d1" />
+
+<img width="898" alt="Screenshot 2023-07-20 124846" src="https://github.com/user-attachments/assets/77bbea62-34f8-4690-a5b0-a2a35ba5722c" />
+
+<img width="895" alt="Screenshot 2023-07-20 125911" src="https://github.com/user-attachments/assets/86b8ec65-1397-4083-9380-a36086eb5721" />
+
+<img width="893" alt="Screenshot 2023-07-20 131717" src="https://github.com/user-attachments/assets/601dc738-db2e-46f2-82bc-1b70c16d0871" />
+
+<img width="891" alt="Screenshot 2023-07-20 132350" src="https://github.com/user-attachments/assets/72ea7879-bec4-4789-8d8f-ef0d6eea0d51" />
+
+
